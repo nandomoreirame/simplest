@@ -8,7 +8,9 @@ Simple Jekyll theme
 * [x] Clean layout
 * [x] Resposive layout
 * [x] Preprocessor SASS
+* [x] HTML minified
 * [x] CSS minified
+* [x] No Javascript
 * [x] Pagination
 * [x] Syntax highlight
 * [x] Author config

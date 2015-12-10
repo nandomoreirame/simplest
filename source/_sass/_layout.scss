@@ -114,8 +114,9 @@ hr {
   }
 }
 
-.post-list h2 {
-  font-weight: 300;
+.post-list {
+  background-color: lighten($light-gray-color, 16%);
+  padding: $base-spacing 0;
 }
 
 .post-item {
@@ -148,6 +149,9 @@ hr {
 }
 
 .disqus {
+  background-color: lighten($light-gray-color, 16%);
+  padding: $base-spacing 0;
+
   hr {
     margin: $base-spacing 0;
   }
@@ -155,11 +159,7 @@ hr {
 
 .site-footer {
   @extend .clearfix;
-  padding: 0 0 $base-spacing;
-
-  hr {
-    margin-top: 0;
-  }
+  padding: $base-spacing 0;
 
   a {
     @extend .link;
@@ -168,7 +168,6 @@ hr {
   small {
     display: block;
     font-size: rem(12);
-    padding-top: $base-spacing;
     color: darken($medium-gray-color, 10%);
   }
 }

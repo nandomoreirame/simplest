@@ -7,7 +7,7 @@ url: http://nandomoreira.me
 # baseurl: "/simplest"
 baseurl: ""
 
-# google_analytics: UA-52446115-1
+google_analytics: UA-52446115-1
 repo: http://github.com/nandomoreirame/simplest
 disqus_shortname: "fernandomoreira"
 
