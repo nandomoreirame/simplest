@@ -133,6 +133,10 @@ hr {
   @extend .link;
 }
 
+.post {
+  @extend .clearfix;
+}
+
 .pagination {
   li, a, span {
     display: inline-block;
@@ -145,6 +149,15 @@ hr {
 
   .prev, .next {
     @extend .link;
+  }
+}
+
+.share {
+  padding: $base-spacing 0 0;
+  @extend .pull-right;
+
+  h4 {
+    display: inline-block;
   }
 }
 
