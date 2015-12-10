@@ -147,6 +147,12 @@ hr {
   }
 }
 
+.disqus {
+  hr {
+    margin: $base-spacing 0;
+  }
+}
+
 .site-footer {
   @extend .clearfix;
   padding: 0 0 $base-spacing;
