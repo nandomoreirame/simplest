@@ -1,4 +1,5 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+// @import url("//fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("//fonts.googleapis.com/css?family=Merriweather:400,300,700");
 
 body {
   color: $base-font-color;
@@ -83,4 +84,26 @@ blockquote {
   color: $medium-gray-color;
   line-height: 1.8;
   border-left: $small-spacing solid $light-gray-color;
+}
+
+code {
+  background: none;
+  border-radius: 0;
+  border: none;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0 5px;
+  background-color: lighten($light-gray-color, 13%);
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0;
+
+  code {
+    line-height: 1.75em;
+  }
 }
