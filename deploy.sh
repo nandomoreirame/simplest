@@ -8,7 +8,7 @@ echo 'Jekyll build...'
 bundle exec jekyll build
 
 echo 'Testing htmlproof...'
-bundle exec htmlproof ./_site --href-ignore "#","#!" --disable-external
+bundle exec htmlproof ./_site --href-ignore "#","/simplest/" --disable-external
 
 cd ${HTML_FOLDER}
 
