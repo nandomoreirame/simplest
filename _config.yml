@@ -4,8 +4,8 @@ title: Simplest
 description: "A free Jekyll theme for download"
 keywords: "Jekyll, theme, free, download, SEO, blog, web"
 url: http://nandomoreira.me
-baseurl: "/simplest"
-# baseurl: ""
+# baseurl: "/simplest"
+baseurl: null
 
 google_analytics: UA-52446115-1
 repo: http://github.com/nandomoreirame/simplest
@@ -16,15 +16,16 @@ permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : pygments
 
-gems: [jekyll-paginate]
 paginate: 4
 paginate_path: "/page/:num/"
 comments: true
 
 source: source
 destination: _site
+
+# Sass configuration
 sass:
-  sass_dir: _sass
+  sass_dir: assets/scss
   style: compressed # expanded
 
 # Author settings
@@ -39,6 +40,15 @@ author:
   twitter  : http://twitter.com/nandomoreirame
   facebook : http://facebook.com/fernando.dev
   linkedin : http://linkedin.com/in/nandomoreirame
+
+# social settings
+og_locale: "pt_BR"
+twitter_card: "summary_large_image"
+twitter_site: "@nandomoreirame"
+
+gems:
+  - bourbon
+  - jekyll-paginate
 
 # navbar pages
 navbar:
