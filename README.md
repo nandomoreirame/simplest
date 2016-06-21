@@ -32,7 +32,7 @@ Access, [localhost:4000/simplest](http://localhost:4000/simplest)
 
 ### Demo and Download
 
-[Demo](http://nandomoreira.me/simplest/)
+[Demo](https://github.nandomoreira.me/simplest/)
 [Download](https://github.com/nandomoreirame/simplest/archive/master.zip)
 
 ![simplest - free Jekyll theme](/screenshot.png)
